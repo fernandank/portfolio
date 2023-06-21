@@ -1,17 +1,14 @@
 {
   "name": "simplefolio",
-  "homepage": "https://fernandank.github.io/portfolio",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+     "predeploy": "npm run build",
++    "deploy": "gh-pages -d build",
+     "start": "react-scripts start",
+     "build": "react-scripts build"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
@@ -19,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
+  "homepage": "https://github.com/fernandank/portfolio",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0",

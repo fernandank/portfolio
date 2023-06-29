@@ -6,9 +6,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --dist-dir public",
-    "gh-pages-build": "parcel build --public-url ."
-  },
+    "build": "npm run build"
+  }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobidev/simplefolio"
